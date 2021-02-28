@@ -1,0 +1,84 @@
+html, body, #root {
+  height: 100%;
+  background:ghostwhite;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.container{
+  height: 100%;
+  display:flex;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+.container>div{
+  flex:1
+}
+
+img {
+  margin-left: 30px;
+  width: 500px;
+}
+
+h1 {
+  font-family: 'Baloo Da 2', cursive;  
+  margin-bottom: 30px;
+  color: #6a5acd;
+  line-height:3rem;
+  font-size: 3rem;
+
+}
+label{
+  font-weight: 100;
+  color:#555;
+  
+}
+
+input {
+  margin-top: 8px;
+  height: 50px;
+  background: white;
+  padding: 10px;
+  color: #222;
+  border: 0;
+  outline: none;
+  width:100%;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+input:focus{
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+
+input::placeholder{
+  font-size:12px;
+  color:#999;
+}
+button{
+  height:50px;
+  background: #6a5acd;
+  border: 0;
+  color: #fff;
+  font-weight:bolder;
+  font-family:sans-serif;
+  padding:10px 15px;
+  text-transform:uppercase;
+  margin-top:45px;
+  border-radius:2px;
+  width:100%;
+  cursor: pointer;
+  border-radius:17px;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  outline: none;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+button:hover{
+  background: #8775ff;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
